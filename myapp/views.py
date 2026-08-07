@@ -8,4 +8,6 @@ def sayhello(request):
 
 def homework2(request, name):
     now = datetime.now()
+    print(now)
+    print(name)
     return render(request, 'show.html', locals())

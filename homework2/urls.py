@@ -21,6 +21,7 @@ from myapp import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path('sayhello/', views.sayhello),
     path('homework2/<str:name>/', views.homework2),
     
 ]
